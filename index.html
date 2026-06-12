@@ -1007,8 +1007,8 @@
         <p class="section-label fade-in">Real Work</p>
         <h2 class="fade-in">Examples from recent builds</h2>
 
-        <div class="examples-grid">
-          <div class="example-card fade-in">
+        <div class="examples-grid" id="examplesContainer">
+          <div class="example-card fade-in example-item" data-index="0">
             <div class="example-video">
               <iframe
                 src="https://share.descript.com/embed/J6zI9fa5Hnn"
@@ -1040,7 +1040,7 @@
             </div>
           </div>
 
-          <div class="example-card fade-in">
+          <div class="example-card fade-in example-item" data-index="1">
             <div class="example-video">
               <iframe
                 src="https://share.descript.com/embed/wKvZyk2YZlw"
@@ -1070,7 +1070,71 @@
               </div>
             </div>
           </div>
+
+          <div class="example-card fade-in example-item" data-index="2" style="display:none;">
+            <div class="example-video">
+              <iframe
+                src="https://share.descript.com/embed/2jjdMubQ88W"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                allowfullscreen
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                "
+              ></iframe>
+            </div>
+            <div class="example-body">
+              <span class="example-tag">API-Connected Panel</span>
+              <h3>Live-Sync Job Scope Manager</h3>
+              <p>
+                Custom UI panel that pulls opportunity data directly from GHL's API, prefills fields automatically, tracks unsaved changes in real-time, and syncs updates back to GHL instantly. Includes conditional field visibility based on user role (sales vs admin).
+              </p>
+              <div class="result">
+                ↳ Eliminated data entry errors and role-based access control
+              </div>
+            </div>
+          </div>
         </div>
+
+        <div style="text-align:center;margin-top:40px;">
+          <button class="btn-secondary" id="showMoreBtn" onclick="toggleExamples()">Show More Examples</button>
+        </div>
+
+        <script>
+          let currentlyShowing = 2; // Initially showing 2 examples
+          const batchSize = 2; // Show 2 more at a time
+          const allExamples = document.querySelectorAll('.example-item');
+          const totalExamples = allExamples.length;
+          const btn = document.getElementById('showMoreBtn');
+
+          function toggleExamples() {
+            if (currentlyShowing >= totalExamples) {
+              // Show Less - reset to initial state
+              for (let i = 2; i < totalExamples; i++) {
+                allExamples[i].style.display = 'none';
+              }
+              currentlyShowing = 2;
+              btn.textContent = 'Show More Examples';
+            } else {
+              // Show More - reveal next batch
+              const nextBatch = Math.min(currentlyShowing + batchSize, totalExamples);
+              for (let i = currentlyShowing; i < nextBatch; i++) {
+                allExamples[i].style.display = 'block';
+              }
+              currentlyShowing = nextBatch;
+              
+              // If we're now showing all examples, change button to "Show Less"
+              if (currentlyShowing >= totalExamples) {
+                btn.textContent = 'Show Less';
+              }
+            }
+          }
+        </script>
       </section>
 
       <!-- PRICING -->
