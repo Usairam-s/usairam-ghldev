@@ -1946,8 +1946,8 @@
 
           <ul class="nav-links">
             <li><a href="#work">Live Builds</a></li>
-            <li><a href="#capabilities">What I Code</a></li>
-            <li><a href="#simulator">Demo</a></li>
+            <li><a href="#simulator">Interactive Demo</a></li>
+            <li><a href="#capabilities">What We Build</a></li>
             <li><a href="#pricing">Pricing</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
@@ -2013,455 +2013,6 @@
             </a>
           </span>
           <span><i class="fa-solid fa-handshake" style="color:var(--ghl-blue);"></i> 100% White-Label Friendly</span>
-        </div>
-      </section>
-
-      <!-- REALISTIC GHL APP REPLICA (INTERACTIVE CUSTOM CODE SHOWCASE) -->
-      <div class="sim-section-intro" id="simulator">
-        <span class="sim-instruction-pill">
-          <i class="fa-solid fa-computer-mouse"></i>
-          Interactive HighLevel Dashboard &bull; Click highlighted sidebar tabs &amp; blue custom buttons to test
-        </span>
-      </div>
-
-      <section class="simulator-container">
-        <div class="sim-topbar">
-          <div class="sim-dots">
-            <span class="sim-dot red"></span>
-            <span class="sim-dot yellow"></span>
-            <span class="sim-dot green"></span>
-          </div>
-          <div class="sim-url" id="simUrl">
-            app.gohighlevel.com/v2/location/dasan-group/automation/workflows
-          </div>
-          <div class="sim-status">
-            <i class="fa-solid fa-circle-check"></i> Custom JS + V2 API Injected
-          </div>
-        </div>
-
-        <div class="sim-body">
-          <!-- Authentic GHL Dark Navy Sidebar -->
-          <div class="sim-sidebar">
-            <div class="sim-loc-box">
-              <div>
-                <div class="sim-loc-name">Your Agency SaaS</div>
-                <div class="sim-loc-sub">Client Sub-Account</div>
-              </div>
-              <i class="fa-solid fa-up-down" style="font-size:10px;color:#94a3b8;"></i>
-            </div>
-
-            <div class="sim-search-row">
-              <div class="sim-search-fake">
-                <span><i class="fa-solid fa-magnifying-glass" style="margin-right:5px;"></i>Search</span>
-                <span style="font-size:10px;background:rgba(255,255,255,0.08);padding:1px 4px;border-radius:3px;">ctrl+k</span>
-              </div>
-              <div class="sim-bolt-btn"><i class="fa-solid fa-bolt"></i></div>
-            </div>
-
-            <div class="sim-skeleton-item">
-              <span class="sim-skeleton-icon"></span>
-              <span class="sim-skeleton-bar" style="width:62%;"></span>
-            </div>
-            <div class="sim-nav-item" id="tabNavDashboard" onclick="switchSimTab('dashboard')">
-              <span class="sim-nav-item-left"><i class="fa-solid fa-cubes" style="color:var(--ghl-yellow);"></i> Custom SaaS Hub</span>
-              <span class="sim-nav-badge" style="background:rgba(255,197,3,0.18);color:var(--ghl-yellow);">Injected</span>
-            </div>
-            <div class="sim-skeleton-item">
-              <span class="sim-skeleton-icon"></span>
-              <span class="sim-skeleton-bar" style="width:74%;"></span>
-            </div>
-            <div class="sim-skeleton-item">
-              <span class="sim-skeleton-icon"></span>
-              <span class="sim-skeleton-bar" style="width:55%;"></span>
-            </div>
-            <div class="sim-nav-item" id="tabNavContacts" onclick="switchSimTab('contacts')">
-              <span class="sim-nav-item-left"><i class="fa-regular fa-address-book"></i> Contacts</span>
-              <span class="sim-nav-badge">ERP Sync</span>
-            </div>
-            <div class="sim-skeleton-item">
-              <span class="sim-skeleton-icon"></span>
-              <span class="sim-skeleton-bar" style="width:68%;"></span>
-            </div>
-
-            <div class="sim-nav-divider"></div>
-
-            <div class="sim-nav-item" id="tabNavAI" onclick="switchSimTab('ai')">
-              <span class="sim-nav-item-left"><i class="fa-solid fa-wand-magic-sparkles"></i> AI Agents</span>
-              <span class="sim-nav-badge">3rd-Party</span>
-            </div>
-            <div class="sim-nav-item active" id="tabNavAutomation" onclick="switchSimTab('automation')">
-              <span class="sim-nav-item-left"><i class="fa-solid fa-diagram-project"></i> Automation</span>
-              <span class="sim-nav-badge">No-Zapier</span>
-            </div>
-            <div class="sim-skeleton-item">
-              <span class="sim-skeleton-icon"></span>
-              <span class="sim-skeleton-bar" style="width:48%;"></span>
-            </div>
-            <div class="sim-skeleton-item">
-              <span class="sim-skeleton-icon"></span>
-              <span class="sim-skeleton-bar" style="width:58%;"></span>
-            </div>
-          </div>
-
-          <!-- Right GHL Workspace -->
-          <div class="sim-workspace">
-            <!-- Authentic GHL White Top Header Bar -->
-            <div class="sim-app-header">
-              <div class="sim-app-tabs">
-                <span class="sim-app-title" id="simAppHeaderTitle">Automation</span>
-                <span class="sim-app-subtab active" id="simAppSubtab1">Workflows</span>
-                <span class="sim-app-subtab">Overview</span>
-                <span class="sim-app-subtab">Settings</span>
-              </div>
-              <div class="sim-app-icons">
-                <span style="font-size:11px;background:#eef2ff;color:#1d4ed8;padding:3px 9px;border-radius:999px;font-weight:600;margin-right:4px;">What's new</span>
-                <span class="sim-circle-icon" style="background:#16a34a;"><i class="fa-solid fa-phone"></i></span>
-                <span class="sim-circle-icon" style="background:#7c3aed;"><i class="fa-solid fa-sparkles"></i></span>
-                <span class="sim-circle-icon" style="background:#0098FD;"><i class="fa-solid fa-bell"></i></span>
-                <span class="sim-circle-icon" style="background:#64748b;">US</span>
-              </div>
-            </div>
-
-            <!-- TAB 1: AUTOMATION (Cross-Sub-Account + External DB Middleware — Zero Zapier) -->
-            <div class="sim-main sim-tab-content active" id="tabContentAutomation">
-              <div class="sim-contact-header">
-                <div class="sim-contact-info">
-                  <h4>Workflows list <span style="font-size:11px;background:#f1f5f9;color:#475569;padding:2px 8px;border-radius:6px;font-weight:600;">Workflow Maps Beta</span></h4>
-                  <span>Click the blue injected button to simulate cross-sub-account &amp; external DB sync (impossible natively)</span>
-                </div>
-                <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
-                  <span class="sim-native-btn"><i class="fa-regular fa-folder"></i> Create folder</span>
-                  <span class="sim-native-blue"><i class="fa-solid fa-plus"></i> Create workflow</span>
-                  <!-- Custom Injected Button -->
-                  <button class="sim-btn-injected" onclick="toggleSimAction('autoPopup', 'autoLog')">
-                    <i class="fa-solid fa-code"></i> [Custom] Multi-Account &amp; DB Sync
-                  </button>
-                </div>
-              </div>
-
-              <table class="sim-table">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Status</th>
-                    <th>Total enrolled</th>
-                    <th>Last updated</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>AI Voice Agent Call Classification</strong></td>
-                    <td><span class="sim-pill-draft">Draft</span></td>
-                    <td style="color:var(--ghl-blue);font-weight:600;">33</td>
-                    <td style="color:var(--text-muted);">Oct 22, 3:15 PM</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Call Rank +RYG &bull; Direct Postgres Sync</strong></td>
-                    <td><span class="sim-pill-published">Published</span></td>
-                    <td style="color:var(--ghl-blue);font-weight:600;">57</td>
-                    <td style="color:var(--text-muted);">Nov 19, 10:31 AM</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Multi-Location Snapshot &amp; Billing Push</strong></td>
-                    <td><span class="sim-pill-published">Published</span></td>
-                    <td style="color:var(--ghl-blue);font-weight:600;">124</td>
-                    <td style="color:var(--text-muted);">Oct 19, 8:59 AM</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="sim-popup" id="autoPopup">
-                <div class="sim-popup-header">
-                  <span class="sim-popup-title"><i class="fa-solid fa-plug" style="color:var(--ghl-blue);"></i> Custom Cross-Account &amp; External DB Bridge</span>
-                  <i class="fa-solid fa-xmark" onclick="toggleSimAction('autoPopup', 'autoLog')" style="color:var(--text-muted);cursor:pointer;"></i>
-                </div>
-                <label style="font-size:12px;color:var(--text-muted);display:block;margin-bottom:6px;">Select Custom Middleware Action:</label>
-                <select class="sim-form-select">
-                  <option>Sync Live Leads &rarr; Client Postgres / Snowflake DB (Zero Zapier)</option>
-                  <option>Clone &amp; Sync Custom Objects Across 25 Sub-Accounts</option>
-                  <option>2-Way QuickBooks / Xero Invoice &amp; Commission Reconciliation</option>
-                </select>
-                <div class="sim-popup-actions">
-                  <button class="sim-native-btn" onclick="toggleSimAction('autoPopup', 'autoLog')">Cancel</button>
-                  <button class="btn btn-primary" style="padding:7px 14px;font-size:12px;" onclick="runSimSuccess('autoPopup', 'autoLog')">Run Simulated Sync</button>
-                </div>
-              </div>
-
-              <div class="sim-log" id="autoLog">
-                <i class="fa-solid fa-check"></i> Synced 25 sub-accounts &amp; external Postgres DB in 95ms &mdash; $0/mo Zapier or Make fees.
-              </div>
-            </div>
-
-            <!-- TAB 2: CONTACTS (Live 3rd-Party ERP, Inventory & Commission Builder) -->
-            <div class="sim-main sim-tab-content" id="tabContentContacts" style="display:none;">
-              <div class="sim-contact-header">
-                <div class="sim-contact-info">
-                  <h4>David Harrison <span style="font-size:11.5px;background:var(--ghl-blue-soft);color:var(--ghl-blue);border:1px solid var(--ghl-blue-border);padding:2px 8px;border-radius:4px;">Enterprise Lead</span></h4>
-                  <span>david@agencygroup.com &bull; External ERP Account #8841</span>
-                </div>
-                <div style="display:flex;gap:8px;align-items:center;">
-                  <span class="sim-native-btn">Edit Contact</span>
-                  <button class="sim-btn-injected" onclick="toggleSimAction('simPopup', 'simLog')">
-                    <i class="fa-solid fa-calculator" style="color:var(--ghl-yellow);"></i> [Custom] Live ERP &amp; Quote Builder
-                  </button>
-                </div>
-              </div>
-
-              <p style="font-size:13px;color:var(--text-muted);margin-bottom:14px;">
-                Native HighLevel cannot pull live warehouse inventory or calculate multi-tier sales commissions inside a Contact screen. Click <strong style="color:var(--ghl-blue);">[Custom] Live ERP &amp; Quote Builder</strong> above.
-              </p>
-
-              <div class="sim-popup" id="simPopup">
-                <div class="sim-popup-header">
-                  <span class="sim-popup-title"><i class="fa-solid fa-boxes-stacked" style="color:var(--ghl-blue);"></i> Embedded 3rd-Party ERP &amp; Commission Modal</span>
-                  <i class="fa-solid fa-xmark" onclick="toggleSimAction('simPopup', 'simLog')" style="color:var(--text-muted);cursor:pointer;"></i>
-                </div>
-                <label style="font-size:12px;color:var(--text-muted);display:block;margin-bottom:6px;">Select External Inventory / Service Package (Live Stock from Shopify/NetSuite):</label>
-                <select class="sim-form-select">
-                  <option>Commercial HVAC Unit Pro (14 in Stock &bull; 22% Rep Margin)</option>
-                  <option>Enterprise SaaS Onboarding Bundle ($4,500 &bull; Auto-Splits Payout)</option>
-                  <option>Custom Multi-Location Retainer (Syncs Directly to Stripe + Xero)</option>
-                </select>
-                <div class="sim-popup-actions">
-                  <button class="sim-native-btn" onclick="toggleSimAction('simPopup', 'simLog')">Cancel</button>
-                  <button class="btn btn-primary" style="padding:7px 14px;font-size:12px;" onclick="runSimSuccess('simPopup', 'simLog')">Lock Quote &amp; Sync ERP</button>
-                </div>
-              </div>
-
-              <div class="sim-log" id="simLog">
-                <i class="fa-solid fa-check"></i> Quote locked, warehouse inventory reserved via 3rd-party API, and rep commission logged inside GHL.
-              </div>
-            </div>
-
-            <!-- TAB 3: AI AGENTS (Voice AI + 3rd-Party Dispatch, Dynamic Pricing & Payment) -->
-            <div class="sim-main sim-tab-content" id="tabContentAI" style="display:none;">
-              <div class="sim-contact-header">
-                <div class="sim-contact-info">
-                  <h4>Inbound Voice AI &bull; 3rd-Party Dispatch Engine</h4>
-                  <span>Real-time external dispatch, dynamic pricing &amp; Stripe checkout mid-call</span>
-                </div>
-                <button class="sim-btn-injected" onclick="toggleSimAction('aiPopup', 'aiLog')">
-                  <i class="fa-solid fa-phone-volume"></i> [Custom] Test 3rd-Party Dispatch Action
-                </button>
-              </div>
-
-              <div style="background:#f8fafc;border:1px solid var(--border);border-radius:10px;padding:18px;">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
-                  <strong style="font-size:13.5px;color:var(--text-heading);">Custom Voice AI Middleware (Beyond Native GHL)</strong>
-                  <span class="sim-pill-published">Connected</span>
-                </div>
-                <p style="font-size:13px;color:var(--text-secondary);margin-bottom:12px;">
-                  While the AI is on a live call, our custom middleware checks <strong>live technician GPS slots in ServiceTitan/Jobber</strong>, calculates dynamic zip-code surge pricing, reserves the job in the 3rd-party platform, and texts a custom Stripe deposit link before hanging up.
-                </p>
-                <div style="font-family:'JetBrains Mono',monospace;font-size:11.5px;background:#0f172a;color:#e2e8f0;padding:12px;border-radius:8px;">
-                  POST /middleware/dispatch-reserve &rarr; { "tech": "Marcus_GPS_4mi", "dynamic_rate": "$249", "booked_in": "ServiceTitan" }
-                </div>
-              </div>
-
-              <div class="sim-popup" id="aiPopup">
-                <div class="sim-popup-header">
-                  <span class="sim-popup-title"><i class="fa-solid fa-route" style="color:var(--ghl-blue);"></i> Simulated 3rd-Party Dispatch + Dynamic Pricing</span>
-                  <i class="fa-solid fa-xmark" onclick="toggleSimAction('aiPopup', 'aiLog')" style="color:var(--text-muted);cursor:pointer;"></i>
-                </div>
-                <p style="font-size:12.5px;color:var(--text-secondary);margin-bottom:12px;">
-                  Caller says: <em>"Need emergency service in zip 90210 today."</em> &rarr; Custom Action checks ServiceTitan GPS availability, applies emergency rate, books the external job, and texts payment link.
-                </p>
-                <div class="sim-popup-actions">
-                  <button class="btn btn-primary" style="padding:7px 14px;font-size:12px;" onclick="runSimSuccess('aiPopup', 'aiLog')">Simulate Live Dispatch</button>
-                </div>
-              </div>
-
-              <div class="sim-log" id="aiLog">
-                <i class="fa-solid fa-check"></i> Booked in ServiceTitan via 3rd-party API (165ms), dynamic price locked ($249), and GHL Opportunity updated.
-              </div>
-            </div>
-
-            <!-- TAB 4: CUSTOM SAAS HUB (Injected Brand-New Sidebar App) -->
-            <div class="sim-main sim-tab-content" id="tabContentDashboard" style="display:none;">
-              <div class="sim-contact-header">
-                <div class="sim-contact-info">
-                  <h4>Custom SaaS Hub <span style="font-size:11px;background:var(--ghl-yellow-soft);color:#92400e;border:1px solid var(--ghl-yellow-border);padding:2px 8px;border-radius:6px;font-weight:700;">Injected Sidebar App</span></h4>
-                  <span>Proprietary white-label feature you bundle into $297&ndash;$997/mo SaaS plans</span>
-                </div>
-                <button class="sim-btn-injected" id="roleBtn" onclick="toggleSimRole()">
-                  <i class="fa-solid fa-user-shield"></i> Switch to Admin Mode
-                </button>
-              </div>
-
-              <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;">
-                <div style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:14px;">
-                  <div style="font-size:11.5px;color:var(--text-muted);margin-bottom:4px;">Bespoke Client Portal (Native Auth)</div>
-                  <div style="font-size:17px;font-weight:800;color:var(--text-heading);">Live Inside GHL Sidebar</div>
-                </div>
-                <div style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:14px;">
-                  <div style="font-size:11.5px;color:var(--text-muted);margin-bottom:4px;">Multi-Account SaaS Rollout</div>
-                  <div style="font-size:17px;font-weight:800;color:var(--ghl-green);">1 Agency Script Tag</div>
-                </div>
-              </div>
-
-              <div id="adminLockedField" style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:14px;text-align:center;color:var(--text-muted);font-size:12.5px;">
-                <i class="fa-solid fa-lock" style="color:#ef4444;margin-right:6px;"></i>
-                <strong>Role-Gated Agency Control Panel:</strong> Hidden from client sub-users. Click <strong>"Switch to Admin Mode"</strong> above to unlock.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Unlimited Possibilities + SaaS Package Positioning Bar -->
-        <div class="sim-saas-bar">
-          <div>
-            <i class="fa-solid fa-infinity" style="color:var(--ghl-blue);margin-right:8px;"></i>
-            <strong>Endless Possibilities &bull; Zero Platform Limits:</strong> These 4 tabs are just examples. Whatever HighLevel can't do natively &mdash; custom sidebars, 3rd-party ERP bridges, AI middleware, or proprietary SaaS portals &mdash; we code it for your <strong>$297&ndash;$997/mo SaaS packages</strong>.
-          </div>
-          <a href="#book" style="color:var(--ghl-yellow);font-weight:600;text-decoration:none;white-space:nowrap;">
-            Scope Your Custom Feature &rarr;
-          </a>
-        </div>
-      </section>
-
-      <!-- CAPABILITIES (INTERACTIVE ENGINEERING EXPLORER) -->
-      <section class="capabilities" id="capabilities">
-        <div class="section-header">
-          <span class="section-pill">Full-Stack GoHighLevel Engineering</span>
-          <h2 class="section-title">If HighLevel can't do it natively, we build it.</h2>
-          <p class="section-subtitle">
-            Click any capability below to see how we bypass GoHighLevel's native limits &mdash; zero templates, zero restrictions.
-          </p>
-        </div>
-
-        <div class="cap-explorer">
-          <!-- Left Interactive Selector -->
-          <div class="cap-list">
-            <button class="cap-tab-btn active" onclick="selectCapTab(0, this)">
-              <span class="cap-num">01</span>
-              <div class="cap-tab-text">
-                <h3>Custom In-App UI, Sidebars &amp; Client Portals</h3>
-                <p>Inject buttons, new sidebar pages, and embedded tools so GHL feels like your proprietary SaaS.</p>
-              </div>
-            </button>
-
-            <button class="cap-tab-btn" onclick="selectCapTab(1, this)">
-              <span class="cap-num">02</span>
-              <div class="cap-tab-text">
-                <h3>Voice AI &amp; 3rd-Party Live Dispatch Middleware</h3>
-                <p>Connect Voice AI to ServiceTitan, Jobber, live inventory, dynamic pricing &amp; Stripe mid-call.</p>
-              </div>
-            </button>
-
-            <button class="cap-tab-btn" onclick="selectCapTab(2, this)">
-              <span class="cap-num">03</span>
-              <div class="cap-tab-text">
-                <h3>2-Way V2 API &amp; Zapier / Make Replacement</h3>
-                <p>Kill $500&ndash;$1,500/mo automation bills with direct custom bridges to Postgres, QuickBooks, or Shopify.</p>
-              </div>
-            </button>
-
-            <button class="cap-tab-btn" onclick="selectCapTab(3, this)">
-              <span class="cap-num">04</span>
-              <div class="cap-tab-text">
-                <h3>Multi-Account SaaS Rollouts &amp; Tier Paywalls</h3>
-                <p>Build once, push to 500 sub-accounts with 1 script, and gate features behind $297&ndash;$997/mo tiers.</p>
-              </div>
-            </button>
-
-            <button class="cap-tab-btn" onclick="selectCapTab(4, this)">
-              <span class="cap-num">05</span>
-              <div class="cap-tab-text">
-                <h3>Anything Else With an API or a Browser</h3>
-                <p>Interactive calculators, Chrome extensions, custom micro-apps, or weird edge cases &mdash; zero limits.</p>
-              </div>
-            </button>
-          </div>
-
-          <!-- Right Dark Engineering Blueprint Panel -->
-          <div class="cap-preview-panel" id="capPreviewPanel">
-            <div>
-              <div class="cap-preview-kicker" id="capKicker">01 // IN-APP UI &amp; SAAS BRANDING</div>
-              <h3 id="capTitle">Turn GoHighLevel into your own custom SaaS product.</h3>
-
-              <div class="cap-compare-block">
-                <div class="cap-compare-label" style="color:#f87171;">
-                  <i class="fa-solid fa-xmark"></i> Where Native GHL Stops
-                </div>
-                <p id="capLimit">
-                  Standard sub-accounts look identical to every other agency. Custom menu links only load clunky external iframes without native user-role context.
-                </p>
-              </div>
-
-              <div class="cap-compare-block" style="border-color:rgba(0,208,2,0.3);background:rgba(0,208,2,0.06);">
-                <div class="cap-compare-label" style="color:var(--ghl-green-bright);">
-                  <i class="fa-solid fa-check"></i> What We Engineer Instead
-                </div>
-                <p id="capSolution">
-                  We inject native-feeling action buttons, popups, and full custom sidebar dashboards directly inside GHL's DOM using update-proof MutationObservers &mdash; aware of the active contact, location, and user role.
-                </p>
-              </div>
-
-              <div class="cap-tech-row" id="capTechTags">
-                <span class="cap-tech-pill">MutationObserver</span>
-                <span class="cap-tech-pill">Role-Based UI</span>
-                <span class="cap-tech-pill">1-Script Agency Loader</span>
-              </div>
-            </div>
-
-            <div class="cap-preview-footer">
-              <span class="cap-roi-callout" id="capRoi">
-                <i class="fa-solid fa-arrow-trend-up"></i> Upsell Value: +$197 to $497/mo per client
-              </span>
-              <a href="#book" class="btn btn-primary" style="padding:9px 16px;font-size:13px;">
-                Scope This Build &rarr;
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 3-STEP DELIVERY PIPELINE (HOW WE SHIP) -->
-      <section class="process-section" id="process">
-        <div class="section-header">
-          <span class="section-pill">How We Ship</span>
-          <h2 class="section-title">From 2-minute Loom to live in your sub-accounts</h2>
-          <p class="section-subtitle">
-            No messy onboarding, no sharing master admin passwords, and zero risk to your live client accounts.
-          </p>
-        </div>
-
-        <div class="process-pipeline">
-          <div class="process-step">
-            <div class="process-step-top">
-              <span class="process-step-num blue">STEP 01</span>
-              <span class="process-step-time">Within 24 Hours</span>
-            </div>
-            <h3>Send a Loom or Book 15 Mins</h3>
-            <p>
-              Show us what your agency or client needs &mdash; no technical specs required. We review feasibility and
-              send a clear fixed price and timeline within 24 hours.
-            </p>
-          </div>
-
-          <div class="process-step">
-            <div class="process-step-top">
-              <span class="process-step-num green">STEP 02</span>
-              <span class="process-step-time">2&ndash;5 Days</span>
-            </div>
-            <h3>Isolated Sandbox Engineering</h3>
-            <p>
-              We build and stress-test everything inside an isolated sandbox sub-account. Your live client data is never
-              touched during development, and you approve a live demo first.
-            </p>
-          </div>
-
-          <div class="process-step">
-            <div class="process-step-top">
-              <span class="process-step-num yellow">STEP 03</span>
-              <span class="process-step-time">30-Day Warranty</span>
-            </div>
-            <h3>1-Click Deploy &amp; Update Shield</h3>
-            <p>
-              Paste one clean script (or let us deploy it across your SaaS sub-accounts). Backed by our
-              <strong>100% Update-Proof Guarantee</strong> &mdash; if HighLevel updates break anything, we fix it free.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -2611,6 +2162,421 @@
           <a href="#book" class="btn btn-primary" style="padding:10px 18px;font-size:13.5px;">
             Pitch Your Custom Build &rarr;
           </a>
+        </div>
+      </section>
+
+      <!-- REALISTIC GHL APP REPLICA (SIMPLE OUTCOME-FOCUSED DEMO) -->
+      <div class="sim-section-intro" id="simulator">
+        <span class="sim-instruction-pill">
+          <i class="fa-solid fa-computer-mouse"></i>
+          Interactive HighLevel Preview &bull; Click any tab or blue button to see what we can add inside your account
+        </span>
+      </div>
+
+      <section class="simulator-container">
+        <div class="sim-topbar">
+          <div class="sim-dots">
+            <span class="sim-dot red"></span>
+            <span class="sim-dot yellow"></span>
+            <span class="sim-dot green"></span>
+          </div>
+          <div class="sim-url" id="simUrl">
+            app.gohighlevel.com/location/your-agency/automation
+          </div>
+          <div class="sim-status">
+            <i class="fa-solid fa-circle-check"></i> Custom Features Active
+          </div>
+        </div>
+
+        <div class="sim-body">
+          <!-- Authentic GHL Dark Navy Sidebar (Clean Skeleton + 4 Outcome Tabs) -->
+          <div class="sim-sidebar">
+            <div class="sim-loc-box">
+              <div>
+                <div class="sim-loc-name">Your Agency SaaS</div>
+                <div class="sim-loc-sub">Client Sub-Account</div>
+              </div>
+              <i class="fa-solid fa-up-down" style="font-size:10px;color:#94a3b8;"></i>
+            </div>
+
+            <div class="sim-search-row">
+              <div class="sim-search-fake">
+                <span><i class="fa-solid fa-magnifying-glass" style="margin-right:5px;"></i>Search</span>
+                <span style="font-size:10px;background:rgba(255,255,255,0.08);padding:1px 4px;border-radius:3px;">ctrl+k</span>
+              </div>
+              <div class="sim-bolt-btn"><i class="fa-solid fa-bolt"></i></div>
+            </div>
+
+            <div class="sim-skeleton-item"><span class="sim-skeleton-icon"></span><span class="sim-skeleton-bar" style="width:62%;"></span></div>
+            <div class="sim-nav-item" id="tabNavDashboard" onclick="switchSimTab('dashboard')">
+              <span class="sim-nav-item-left"><i class="fa-solid fa-cubes" style="color:var(--ghl-yellow);"></i> Your Custom App</span>
+              <span class="sim-nav-badge" style="background:rgba(255,197,3,0.18);color:var(--ghl-yellow);">SaaS</span>
+            </div>
+            <div class="sim-skeleton-item"><span class="sim-skeleton-icon"></span><span class="sim-skeleton-bar" style="width:74%;"></span></div>
+            <div class="sim-skeleton-item"><span class="sim-skeleton-icon"></span><span class="sim-skeleton-bar" style="width:55%;"></span></div>
+            <div class="sim-nav-item" id="tabNavContacts" onclick="switchSimTab('contacts')">
+              <span class="sim-nav-item-left"><i class="fa-regular fa-address-book"></i> Contacts</span>
+              <span class="sim-nav-badge">1-Click</span>
+            </div>
+            <div class="sim-skeleton-item"><span class="sim-skeleton-icon"></span><span class="sim-skeleton-bar" style="width:68%;"></span></div>
+
+            <div class="sim-nav-divider"></div>
+
+            <div class="sim-nav-item" id="tabNavAI" onclick="switchSimTab('ai')">
+              <span class="sim-nav-item-left"><i class="fa-solid fa-wand-magic-sparkles"></i> AI Agents</span>
+              <span class="sim-nav-badge">Voice AI</span>
+            </div>
+            <div class="sim-nav-item active" id="tabNavAutomation" onclick="switchSimTab('automation')">
+              <span class="sim-nav-item-left"><i class="fa-solid fa-diagram-project"></i> Automation</span>
+              <span class="sim-nav-badge">Save $</span>
+            </div>
+            <div class="sim-skeleton-item"><span class="sim-skeleton-icon"></span><span class="sim-skeleton-bar" style="width:48%;"></span></div>
+            <div class="sim-skeleton-item"><span class="sim-skeleton-icon"></span><span class="sim-skeleton-bar" style="width:58%;"></span></div>
+          </div>
+
+          <!-- Right GHL Workspace -->
+          <div class="sim-workspace">
+            <div class="sim-app-header">
+              <div class="sim-app-tabs">
+                <span class="sim-app-title" id="simAppHeaderTitle">Automation</span>
+                <span class="sim-app-subtab active" id="simAppSubtab1">Workflows</span>
+                <span class="sim-app-subtab">Overview</span>
+                <span class="sim-app-subtab">Settings</span>
+              </div>
+              <div class="sim-app-icons">
+                <span style="font-size:11px;background:#eef2ff;color:#1d4ed8;padding:3px 9px;border-radius:999px;font-weight:600;margin-right:4px;">What's new</span>
+                <span class="sim-circle-icon" style="background:#16a34a;"><i class="fa-solid fa-phone"></i></span>
+                <span class="sim-circle-icon" style="background:#7c3aed;"><i class="fa-solid fa-sparkles"></i></span>
+                <span class="sim-circle-icon" style="background:#0098FD;"><i class="fa-solid fa-bell"></i></span>
+                <span class="sim-circle-icon" style="background:#64748b;">US</span>
+              </div>
+            </div>
+
+            <!-- TAB 1: AUTOMATION (Simple Outcome) -->
+            <div class="sim-main sim-tab-content active" id="tabContentAutomation">
+              <div class="sim-contact-header">
+                <div class="sim-contact-info">
+                  <h4>Workflows list</h4>
+                  <span>Connect HighLevel directly to your client's outside software &mdash; without paying $500+/mo for Zapier</span>
+                </div>
+                <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+                  <span class="sim-native-blue"><i class="fa-solid fa-plus"></i> Create workflow</span>
+                  <button class="sim-btn-injected" onclick="toggleSimAction('autoPopup', 'autoLog')">
+                    <i class="fa-solid fa-arrows-rotate"></i> Sync External Software
+                  </button>
+                </div>
+              </div>
+
+              <table class="sim-table">
+                <thead>
+                  <tr><th>Workflow Name</th><th>Status</th><th>Active Leads</th><th>Result</th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Voice AI Call &amp; Booking Sync</strong></td>
+                    <td><span class="sim-pill-published">Published</span></td>
+                    <td style="color:var(--ghl-blue);font-weight:600;">33</td>
+                    <td style="color:var(--ghl-green);font-weight:600;">Zero manual entry</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Auto-Sync Deals to QuickBooks &amp; Client Sheet</strong></td>
+                    <td><span class="sim-pill-published">Published</span></td>
+                    <td style="color:var(--ghl-blue);font-weight:600;">57</td>
+                    <td style="color:var(--ghl-green);font-weight:600;">Saves $600/mo Zapier</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Push Updates Across 25 Client Accounts</strong></td>
+                    <td><span class="sim-pill-published">Published</span></td>
+                    <td style="color:var(--ghl-blue);font-weight:600;">124</td>
+                    <td style="color:var(--ghl-green);font-weight:600;">1-click rollout</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="sim-popup" id="autoPopup">
+                <div class="sim-popup-header">
+                  <span class="sim-popup-title"><i class="fa-solid fa-plug" style="color:var(--ghl-blue);"></i> Pick Where Leads &amp; Deals Sync</span>
+                  <i class="fa-solid fa-xmark" onclick="toggleSimAction('autoPopup', 'autoLog')" style="color:var(--text-muted);cursor:pointer;"></i>
+                </div>
+                <select class="sim-form-select">
+                  <option>Client Billing &amp; Invoices (QuickBooks / Stripe)</option>
+                  <option>External Database or Custom Client Portal</option>
+                  <option>Sync Across All Agency Sub-Accounts</option>
+                </select>
+                <div class="sim-popup-actions">
+                  <button class="sim-native-btn" onclick="toggleSimAction('autoPopup', 'autoLog')">Cancel</button>
+                  <button class="btn btn-primary" style="padding:7px 14px;font-size:12px;" onclick="runSimSuccess('autoPopup', 'autoLog')">Test Sync</button>
+                </div>
+              </div>
+
+              <div class="sim-log" id="autoLog">
+                <i class="fa-solid fa-check"></i> Done! All leads &amp; invoices synced automatically &mdash; zero Zapier or Make subscription needed.
+              </div>
+            </div>
+
+            <!-- TAB 2: CONTACTS (Simple 1-Click Outcome) -->
+            <div class="sim-main sim-tab-content" id="tabContentContacts" style="display:none;">
+              <div class="sim-contact-header">
+                <div class="sim-contact-info">
+                  <h4>David Harrison <span style="font-size:11.5px;background:var(--ghl-blue-soft);color:var(--ghl-blue);border:1px solid var(--ghl-blue-border);padding:2px 8px;border-radius:4px;">VIP Client</span></h4>
+                  <span>Turn 10 slow manual steps into one simple button right inside the contact</span>
+                </div>
+                <div style="display:flex;gap:8px;align-items:center;">
+                  <span class="sim-native-btn">Edit Contact</span>
+                  <button class="sim-btn-injected" onclick="toggleSimAction('simPopup', 'simLog')">
+                    <i class="fa-solid fa-bolt" style="color:var(--ghl-yellow);"></i> Create Quote &amp; Onboard
+                  </button>
+                </div>
+              </div>
+
+              <p style="font-size:13.5px;color:var(--text-secondary);margin-bottom:14px;">
+                Instead of your client's team clicking through 5 tabs and making mistakes, we place custom buttons directly where they work. Click <strong style="color:var(--ghl-blue);">Create Quote &amp; Onboard</strong> above.
+              </p>
+
+              <div class="sim-popup" id="simPopup">
+                <div class="sim-popup-header">
+                  <span class="sim-popup-title"><i class="fa-solid fa-bolt" style="color:var(--ghl-blue);"></i> 1-Click Client Action</span>
+                  <i class="fa-solid fa-xmark" onclick="toggleSimAction('simPopup', 'simLog')" style="color:var(--text-muted);cursor:pointer;"></i>
+                </div>
+                <select class="sim-form-select">
+                  <option>Generate Custom Quote + Send Stripe Payment Link</option>
+                  <option>Start VIP Onboarding &amp; Create Client Portal</option>
+                  <option>Calculate Rep Commission &amp; Update Pipeline</option>
+                </select>
+                <div class="sim-popup-actions">
+                  <button class="sim-native-btn" onclick="toggleSimAction('simPopup', 'simLog')">Cancel</button>
+                  <button class="btn btn-primary" style="padding:7px 14px;font-size:12px;" onclick="runSimSuccess('simPopup', 'simLog')">Run Action</button>
+                </div>
+              </div>
+
+              <div class="sim-log" id="simLog">
+                <i class="fa-solid fa-check"></i> Quote sent, Stripe link generated, and onboarding started in 1 click. Zero staff training needed.
+              </div>
+            </div>
+
+            <!-- TAB 3: AI AGENTS (Simple Voice AI Outcome) -->
+            <div class="sim-main sim-tab-content" id="tabContentAI" style="display:none;">
+              <div class="sim-contact-header">
+                <div class="sim-contact-info">
+                  <h4>Smart Voice AI Agent</h4>
+                  <span>Let your Voice AI check live prices, inventory &amp; calendars in outside tools while on the phone</span>
+                </div>
+                <button class="sim-btn-injected" onclick="toggleSimAction('aiPopup', 'aiLog')">
+                  <i class="fa-solid fa-phone-volume"></i> Test Live Call Action
+                </button>
+              </div>
+
+              <div style="background:#f8fafc;border:1px solid var(--border);border-radius:10px;padding:18px;">
+                <strong style="font-size:14px;color:var(--text-heading);display:block;margin-bottom:6px;">What Happens During a Live Phone Call:</strong>
+                <p style="font-size:13.5px;color:var(--text-secondary);margin:0;">
+                  Normally, HighLevel Voice AI can't check live stock, calculate custom prices by zip code, or book directly into tools like ServiceTitan or Jobber. We connect it behind the scenes so your AI checks live info and closes the booking before hanging up.
+                </p>
+              </div>
+
+              <div class="sim-popup" id="aiPopup">
+                <div class="sim-popup-header">
+                  <span class="sim-popup-title"><i class="fa-solid fa-microphone-lines" style="color:var(--ghl-blue);"></i> Live Call Example</span>
+                  <i class="fa-solid fa-xmark" onclick="toggleSimAction('aiPopup', 'aiLog')" style="color:var(--text-muted);cursor:pointer;"></i>
+                </div>
+                <p style="font-size:13px;color:var(--text-secondary);margin-bottom:12px;">
+                  Caller asks: <em>"Do you have a tech free today in zip 90210 and what's the price?"</em> &rarr; AI checks your client's live dispatch software, gives the exact quote, and books the job.
+                </p>
+                <div class="sim-popup-actions">
+                  <button class="btn btn-primary" style="padding:7px 14px;font-size:12px;" onclick="runSimSuccess('aiPopup', 'aiLog')">Simulate Booking</button>
+                </div>
+              </div>
+
+              <div class="sim-log" id="aiLog">
+                <i class="fa-solid fa-check"></i> Job booked in client's dispatch software, custom price quoted, and contact updated inside HighLevel.
+              </div>
+            </div>
+
+            <!-- TAB 4: YOUR CUSTOM APP (SaaS Package Outcome) -->
+            <div class="sim-main sim-tab-content" id="tabContentDashboard" style="display:none;">
+              <div class="sim-contact-header">
+                <div class="sim-contact-info">
+                  <h4>Your Branded Custom Feature <span style="font-size:11px;background:var(--ghl-yellow-soft);color:#92400e;border:1px solid var(--ghl-yellow-border);padding:2px 8px;border-radius:6px;font-weight:700;">White-Labeled</span></h4>
+                  <span>Add your own exclusive tools inside HighLevel so clients can't leave you</span>
+                </div>
+                <button class="sim-btn-injected" id="roleBtn" onclick="toggleSimRole()">
+                  <i class="fa-solid fa-user-shield"></i> Switch to Agency Admin View
+                </button>
+              </div>
+
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;">
+                <div style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:14px;">
+                  <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">Client Experience</div>
+                  <div style="font-size:16px;font-weight:800;color:var(--text-heading);">Looks 100% Built-In</div>
+                </div>
+                <div style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:14px;">
+                  <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px;">SaaS Package Value</div>
+                  <div style="font-size:16px;font-weight:800;color:var(--ghl-green);">Charge $297&ndash;$997/mo</div>
+                </div>
+              </div>
+
+              <div id="adminLockedField" style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:14px;text-align:center;color:var(--text-muted);font-size:13px;">
+                <i class="fa-solid fa-lock" style="color:#ef4444;margin-right:6px;"></i>
+                <strong>Hidden From Client Sub-Users:</strong> Agency profit &amp; admin controls stay private. Click <strong>"Switch to Agency Admin View"</strong> above to see.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unlimited Possibilities + SaaS Package Positioning Bar -->
+        <div class="sim-saas-bar">
+          <div>
+            <i class="fa-solid fa-infinity" style="color:var(--ghl-blue);margin-right:8px;"></i>
+            <strong>Zero Limits:</strong> These 4 tabs are just examples. Whatever HighLevel can't do out of the box, we build it cleanly &mdash; ready to bundle into your <strong>$297&ndash;$997/mo SaaS packages</strong>.
+          </div>
+          <a href="#book" style="color:var(--ghl-yellow);font-weight:600;text-decoration:none;white-space:nowrap;">
+            Build Your Feature &rarr;
+          </a>
+        </div>
+      </section>
+
+      <!-- CAPABILITIES (INTERACTIVE ENGINEERING EXPLORER) -->
+      <section class="capabilities" id="capabilities">
+        <div class="section-header">
+          <span class="section-pill">Full-Stack GoHighLevel Engineering</span>
+          <h2 class="section-title">If HighLevel can't do it natively, we build it.</h2>
+          <p class="section-subtitle">
+            Click any capability below to see how we bypass GoHighLevel's native limits &mdash; zero templates, zero restrictions.
+          </p>
+        </div>
+
+        <div class="cap-explorer">
+          <!-- Left Interactive Selector -->
+          <div class="cap-list">
+            <button class="cap-tab-btn active" onclick="selectCapTab(0, this)">
+              <span class="cap-num">01</span>
+              <div class="cap-tab-text">
+                <h3>Custom In-App UI, Sidebars &amp; Client Portals</h3>
+                <p>Inject buttons, new sidebar pages, and embedded tools so GHL feels like your proprietary SaaS.</p>
+              </div>
+            </button>
+
+            <button class="cap-tab-btn" onclick="selectCapTab(1, this)">
+              <span class="cap-num">02</span>
+              <div class="cap-tab-text">
+                <h3>Voice AI &amp; 3rd-Party Live Dispatch Middleware</h3>
+                <p>Connect Voice AI to ServiceTitan, Jobber, live inventory, dynamic pricing &amp; Stripe mid-call.</p>
+              </div>
+            </button>
+
+            <button class="cap-tab-btn" onclick="selectCapTab(2, this)">
+              <span class="cap-num">03</span>
+              <div class="cap-tab-text">
+                <h3>2-Way V2 API &amp; Zapier / Make Replacement</h3>
+                <p>Kill $500&ndash;$1,500/mo automation bills with direct custom bridges to Postgres, QuickBooks, or Shopify.</p>
+              </div>
+            </button>
+
+            <button class="cap-tab-btn" onclick="selectCapTab(3, this)">
+              <span class="cap-num">04</span>
+              <div class="cap-tab-text">
+                <h3>Multi-Account SaaS Rollouts &amp; Tier Paywalls</h3>
+                <p>Build once, push to 500 sub-accounts with 1 script, and gate features behind $297&ndash;$997/mo tiers.</p>
+              </div>
+            </button>
+
+            <button class="cap-tab-btn" onclick="selectCapTab(4, this)">
+              <span class="cap-num">05</span>
+              <div class="cap-tab-text">
+                <h3>Anything Else With an API or a Browser</h3>
+                <p>Interactive calculators, Chrome extensions, custom micro-apps, or weird edge cases &mdash; zero limits.</p>
+              </div>
+            </button>
+          </div>
+
+          <!-- Right Dark Engineering Blueprint Panel -->
+          <div class="cap-preview-panel" id="capPreviewPanel">
+            <div>
+              <div class="cap-preview-kicker" id="capKicker">01 // IN-APP UI &amp; SAAS BRANDING</div>
+              <h3 id="capTitle">Turn GoHighLevel into your own custom SaaS product.</h3>
+
+              <div class="cap-compare-block">
+                <div class="cap-compare-label" style="color:#f87171;">
+                  <i class="fa-solid fa-xmark"></i> Where Native GHL Stops
+                </div>
+                <p id="capLimit">
+                  Standard sub-accounts look identical to every other agency. Custom menu links only load clunky external iframes without native user-role context.
+                </p>
+              </div>
+
+              <div class="cap-compare-block" style="border-color:rgba(0,208,2,0.3);background:rgba(0,208,2,0.06);">
+                <div class="cap-compare-label" style="color:var(--ghl-green-bright);">
+                  <i class="fa-solid fa-check"></i> What We Engineer Instead
+                </div>
+                <p id="capSolution">
+                  We inject native-feeling action buttons, popups, and full custom sidebar dashboards directly inside GHL's DOM using update-proof MutationObservers &mdash; aware of the active contact, location, and user role.
+                </p>
+              </div>
+
+              <div class="cap-tech-row" id="capTechTags">
+                <span class="cap-tech-pill">MutationObserver</span>
+                <span class="cap-tech-pill">Role-Based UI</span>
+                <span class="cap-tech-pill">1-Script Agency Loader</span>
+              </div>
+            </div>
+
+            <div class="cap-preview-footer">
+              <span class="cap-roi-callout" id="capRoi">
+                <i class="fa-solid fa-arrow-trend-up"></i> Upsell Value: +$197 to $497/mo per client
+              </span>
+              <a href="#book" class="btn btn-primary" style="padding:9px 16px;font-size:13px;">
+                Scope This Build &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3-STEP DELIVERY PIPELINE (HOW WE SHIP) -->
+      <section class="process-section" id="process">
+        <div class="section-header">
+          <span class="section-pill">How We Ship</span>
+          <h2 class="section-title">From 2-minute Loom to live in your sub-accounts</h2>
+          <p class="section-subtitle">
+            No messy onboarding, no sharing master admin passwords, and zero risk to your live client accounts.
+          </p>
+        </div>
+
+        <div class="process-pipeline">
+          <div class="process-step">
+            <div class="process-step-top">
+              <span class="process-step-num blue">STEP 01</span>
+              <span class="process-step-time">Within 24 Hours</span>
+            </div>
+            <h3>Send a Loom or Book 15 Mins</h3>
+            <p>
+              Show us what your agency or client needs &mdash; no technical specs required. We review feasibility and
+              send a clear fixed price and timeline within 24 hours.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step-top">
+              <span class="process-step-num green">STEP 02</span>
+              <span class="process-step-time">2&ndash;5 Days</span>
+            </div>
+            <h3>Isolated Sandbox Engineering</h3>
+            <p>
+              We build and stress-test everything inside an isolated sandbox sub-account. Your live client data is never
+              touched during development, and you approve a live demo first.
+            </p>
+          </div>
+
+          <div class="process-step">
+            <div class="process-step-top">
+              <span class="process-step-num yellow">STEP 03</span>
+              <span class="process-step-time">30-Day Warranty</span>
+            </div>
+            <h3>1-Click Deploy &amp; Update Shield</h3>
+            <p>
+              Paste one clean script (or let us deploy it across your SaaS sub-accounts). Backed by our
+              <strong>100% Update-Proof Guarantee</strong> &mdash; if HighLevel updates break anything, we fix it free.
+            </p>
+          </div>
         </div>
       </section>
 
